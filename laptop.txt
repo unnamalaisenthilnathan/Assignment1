@@ -5,7 +5,3 @@ chrome
 
 internet
 
-vlc player
-
-
-thank you
