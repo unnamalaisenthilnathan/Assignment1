@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3852" started-at="2019-07-23T11:22:11Z" finished-at="2019-07-23T11:22:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3852" started-at="2019-07-23T11:22:11Z" finished-at="2019-07-23T11:22:15Z">
+      <class name="MakeMyTripApp.Base">
+        <test-method status="PASS" signature="chooseBrowser()[pri:0, instance:MakeMyTripApp.Base@2ac1fdc4]" name="chooseBrowser" duration-ms="3820" started-at="2019-07-23T16:52:11Z" finished-at="2019-07-23T16:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBrowser -->
+      </class> <!-- MakeMyTripApp.Base -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
