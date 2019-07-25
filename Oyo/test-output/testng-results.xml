@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10640" started-at="2019-07-23T13:45:32Z" finished-at="2019-07-23T13:45:43Z">
+  <suite name="Default suite" duration-ms="30829" started-at="2019-07-25T10:16:35Z" finished-at="2019-07-25T10:17:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10640" started-at="2019-07-23T13:45:32Z" finished-at="2019-07-23T13:45:43Z">
+    <test name="Default test" duration-ms="30829" started-at="2019-07-25T10:16:35Z" finished-at="2019-07-25T10:17:06Z">
       <class name="OyoWebsiteAutomation.HotelSearching">
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:OyoWebsiteAutomation.HotelSearching@5f150435]" name="openUrl" duration-ms="5208" started-at="2019-07-23T19:15:32Z" finished-at="2019-07-23T19:15:37Z">
+        <test-method status="PASS" signature="chooseBrowser()[pri:0, instance:OyoWebsiteAutomation.HotelSearching@28f67ac7]" name="chooseBrowser" is-config="true" duration-ms="16016" started-at="2019-07-25T15:46:35Z" finished-at="2019-07-25T15:46:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="HotelSearch()[pri:0, instance:OyoWebsiteAutomation.HotelSearching@5f150435]" name="HotelSearch" duration-ms="5404" started-at="2019-07-23T19:15:37Z" finished-at="2019-07-23T19:15:43Z">
+        </test-method> <!-- chooseBrowser -->
+        <test-method status="PASS" signature="HotelSearch()[pri:0, instance:OyoWebsiteAutomation.HotelSearching@28f67ac7]" name="HotelSearch" duration-ms="14779" started-at="2019-07-25T15:46:51Z" finished-at="2019-07-25T15:47:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelSearch -->
