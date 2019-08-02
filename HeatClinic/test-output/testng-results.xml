@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9022" started-at="2019-08-02T15:05:14Z" finished-at="2019-08-02T15:05:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9022" started-at="2019-08-02T15:05:14Z" finished-at="2019-08-02T15:05:23Z">
+      <class name="com.atmecs.testscripts.NewToHotSauce">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.NewToHotSauce@6833ce2c]" name="setup" is-config="true" duration-ms="7428" started-at="2019-08-02T20:35:14Z" finished-at="2019-08-02T20:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newtohotsauce()[pri:0, instance:com.atmecs.testscripts.NewToHotSauce@6833ce2c]" name="newtohotsauce" duration-ms="603" started-at="2019-08-02T20:35:22Z" finished-at="2019-08-02T20:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newtohotsauce -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.NewToHotSauce@6833ce2c]" name="teardown" is-config="true" duration-ms="973" started-at="2019-08-02T20:35:22Z" finished-at="2019-08-02T20:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.atmecs.testscripts.NewToHotSauce -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
