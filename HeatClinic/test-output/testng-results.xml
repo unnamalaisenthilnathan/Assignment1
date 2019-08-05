@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9022" started-at="2019-08-02T15:05:14Z" finished-at="2019-08-02T15:05:23Z">
+  <suite name="Default suite" duration-ms="8281" started-at="2019-08-05T14:17:12Z" finished-at="2019-08-05T14:17:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9022" started-at="2019-08-02T15:05:14Z" finished-at="2019-08-02T15:05:23Z">
-      <class name="com.atmecs.testscripts.NewToHotSauce">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.NewToHotSauce@6833ce2c]" name="setup" is-config="true" duration-ms="7428" started-at="2019-08-02T20:35:14Z" finished-at="2019-08-02T20:35:22Z">
+    <test name="Default test" duration-ms="8281" started-at="2019-08-05T14:17:12Z" finished-at="2019-08-05T14:17:20Z">
+      <class name="com.atmecs.testscripts.FAQ">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.FAQ@2c6a3f77]" name="setup" is-config="true" duration-ms="6428" started-at="2019-08-05T19:47:12Z" finished-at="2019-08-05T19:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="newtohotsauce()[pri:0, instance:com.atmecs.testscripts.NewToHotSauce@6833ce2c]" name="newtohotsauce" duration-ms="603" started-at="2019-08-02T20:35:22Z" finished-at="2019-08-02T20:35:22Z">
+        <test-method status="PASS" signature="faq()[pri:0, instance:com.atmecs.testscripts.FAQ@2c6a3f77]" name="faq" duration-ms="806" started-at="2019-08-05T19:47:18Z" finished-at="2019-08-05T19:47:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newtohotsauce -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.NewToHotSauce@6833ce2c]" name="teardown" is-config="true" duration-ms="973" started-at="2019-08-02T20:35:22Z" finished-at="2019-08-02T20:35:23Z">
+        </test-method> <!-- faq -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.FAQ@2c6a3f77]" name="teardown" is-config="true" duration-ms="1031" started-at="2019-08-05T19:47:19Z" finished-at="2019-08-05T19:47:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.testscripts.NewToHotSauce -->
+      </class> <!-- com.atmecs.testscripts.FAQ -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

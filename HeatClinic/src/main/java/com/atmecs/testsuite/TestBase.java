@@ -10,10 +10,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.atmecs.constants.ProjectPathConstants;
+import com.atmecs.logreports.LogReportinformation;
 import com.atmecs.util.PropertiesUtil;
 
 public class TestBase  {
-	
+	LogReportinformation log=new LogReportinformation();
 	WebDriver driver;
 
     public static Properties configProps = PropertiesUtil.loadProperty(ProjectPathConstants.config);
@@ -22,13 +23,7 @@ public class TestBase  {
 	public enum BrowserType {
 	FIREFOX, CHROME, IE
 	}
-
-	public WebDriver getwebDriver() {
-	return this.driver;
-	}
-
-
-	public WebDriver invokeBrowser() 
+public WebDriver invokeBrowser() 
 	{
 	
 		System.out.println("invoke");
@@ -38,6 +33,7 @@ public class TestBase  {
 	case CHROME:{
 	this.driver = setChromeDriver();
 	System.out.println("Chrome driver set "+driver);
+	log.info("chrome invoked...");
 	break;
 	}
 	case FIREFOX:
@@ -69,7 +65,7 @@ public class TestBase  {
 	return new FirefoxDriver();
 	}
 
-	public WebDriver setInterExplorerDriver() {
+	private WebDriver setInterExplorerDriver() {
 	String currentdir = System.getProperty("user.dir") + File.separator + "lib" + File.separator;
 	System.setProperty("webdriver.ie.driver", currentdir + "IEDriverServer.exe");
 	return new InternetExplorerDriver();

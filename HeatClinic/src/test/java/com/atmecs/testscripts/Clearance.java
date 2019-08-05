@@ -1,17 +1,12 @@
 package com.atmecs.testscripts;
-
-
-
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.atmecs.testsuite.TestBase;
-import com.atmecs.util.PropertiesUtil;
+import com.atmecs.util.CommonUtilities;
+
 
 public class Clearance extends TestBase{
 WebDriver driver;
@@ -30,15 +25,10 @@ WebDriver driver;
 	@Test
 	public void clearance() 
 	{
-		PropertiesUtil   obj=new  PropertiesUtil ();
+		CommonUtilities   obj=new  CommonUtilities ();
 		
-		
+		obj.ClickOnElement(driver,menuprops.getProperty("btn_clearance"), "CLEARANCE");
 
-		WebElement gettitle=driver.findElement(By.xpath(menuprops.getProperty("btn_clearance")));
-		String clearancetitle =gettitle.getText();
-		obj.verifyassert(clearancetitle,"CLEARANCE", "Validation is Passed");
-		gettitle.click();
-		
 		
 	}
 	
