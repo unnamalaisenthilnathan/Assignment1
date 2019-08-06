@@ -26,29 +26,30 @@ public class TestBase  {
 public WebDriver invokeBrowser() 
 	{
 	
-		System.out.println("invoke");
+	log.info("invoke");
 	    String browser = configProps.getProperty("browserName");
 	
 	switch (BrowserType.valueOf(browser)) {
 	case CHROME:{
 	this.driver = setChromeDriver();
-	System.out.println("Chrome driver set "+driver);
+	log.info("Chrome driver set "+driver);
 	log.info("chrome invoked...");
 	break;
 	}
 	case FIREFOX:
-	System.out.println("firefox case");
+		log.info("firefox case");
 	this.driver = setFirefoxDriver();
-	System.out.println("Firefox driver set "+driver);
+	log.info("Firefox driver set "+driver);
 	break;
 
 	case IE:
 	this.driver = setInterExplorerDriver();
-	System.out.println("Internet driver set "+driver);
+	log.info("Internet driver set "+driver);
 	default:
 	break;
 	}
 	return driver;
+	
 
 	}
 

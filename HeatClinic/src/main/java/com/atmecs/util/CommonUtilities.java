@@ -11,9 +11,15 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Assert;
 
 import com.google.common.base.Function;
-
+/**
+ * 
+ * @author Unnamalai.S
+ *  This class contains ClickOnElement method, mouseover method, Click method.
+ *  ClickOnElement method contains click operations and assert operations.
+ *  mouseover method contains 
+ */
 public class CommonUtilities {
-
+	
 	public  void verifyassert(String actual,String expected,String message)
 	{
 		
@@ -26,8 +32,11 @@ public class CommonUtilities {
 	{
 		FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).ignoring(ElementClickInterceptedException.class).pollingEvery(1, TimeUnit.SECONDS).withTimeout(30, TimeUnit.SECONDS);
 	
-		fluentWait.until(new Function<WebDriver, Boolean>() {
-		public Boolean apply(WebDriver driver) {
+		fluentWait.until
+		(new Function<WebDriver, Boolean>()
+		{
+		public Boolean apply(WebDriver driver)
+		{
 		WebElement element = driver.findElement(By.xpath(xpath));
 		String title=element.getText();
 		verifyassert(title,expected,"passed");
@@ -36,6 +45,7 @@ public class CommonUtilities {
 		}
 		});
 		}
+	
 	public   void mouseover(WebDriver driver, final String xpath) 
 	{
 		FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).ignoring(ElementClickInterceptedException.class).pollingEvery(1, TimeUnit.SECONDS).withTimeout(30, TimeUnit.SECONDS);
@@ -55,7 +65,7 @@ public class CommonUtilities {
 		FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).ignoring(ElementClickInterceptedException.class).pollingEvery(1, TimeUnit.SECONDS).withTimeout(30, TimeUnit.SECONDS);
 	
 		fluentWait.until(new Function<WebDriver, Boolean>() {
-		public Boolean apply(WebDriver driver) {
+		public Boolean apply(WebDriver driver) { 
 		WebElement element = driver.findElement(By.xpath(xpath));
 		element.click();
 		return true;

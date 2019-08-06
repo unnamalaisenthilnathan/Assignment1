@@ -12,6 +12,7 @@ import com.atmecs.util.CommonUtilities;
 public class HotSaucesMenuAutomation extends TestBase {
 	WebDriver driver;
 	LogReportinformation log=new LogReportinformation();
+	
 	@BeforeTest
 	public void setup1()
 	{
@@ -20,8 +21,9 @@ public class HotSaucesMenuAutomation extends TestBase {
 		driver.get(baseUrl);
 		this.driver = windowOperation();
 		
-}
+    }
 	
+	 
 	@Test
 	public void hotsauce() 
 	{
@@ -30,7 +32,9 @@ public class HotSaucesMenuAutomation extends TestBase {
 		log.info("Title is :"+driver.getTitle());
 
 		}
-	@AfterTest
+	 
+	 
+	 @AfterTest
 	public void teardown()
 	{
 		driver.quit();
