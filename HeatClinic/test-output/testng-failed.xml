@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="homepage">
-    <classes>
-      <class name="com.atmecs.testscripts.HomePageAutomationScripts"/>
-    </classes>
-  </test> <!-- homepage -->
-  <test name="hotsaucepage">
-    <classes>
-      <class name="com.atmecs.testscripts.HotSaucesMenuAutomationScripts"/>
-    </classes>
-  </test> <!-- hotsaucepage -->
-  <test name="merchandise">
-    <classes>
-      <class name="com.atmecs.testscripts.MerchandiseMenuAutomationScripts"/>
-    </classes>
-  </test> <!-- merchandise -->
-  <test name="clearance">
-    <classes>
-      <class name="com.atmecs.testscripts.ClearanceMenuAutomationScripts"/>
-    </classes>
-  </test> <!-- clearance -->
-  <test name="newtohotsauce">
-    <classes>
-      <class name="com.atmecs.testscripts.NewToHotSauceMenuAutomationScripts"/>
-    </classes>
-  </test> <!-- newtohotsauce -->
-  <test name="faq">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
       <class name="com.atmecs.testscripts.FAQMenuAutomationScripts"/>
     </classes>
-  </test> <!-- faq -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

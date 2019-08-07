@@ -25,7 +25,7 @@ LogReportInformation log=new LogReportInformation();
 	public void newtohotsauce()
 	{
 		CommonUtilities   obj =new  CommonUtilities ();
-		obj.ClickOnElement(driver, menuprops.getProperty("loc_newtohotsauce_menu"), "NEW TO HOT SAUCE?");
+		obj.assertion(driver, menuprops.getProperty("loc_newtohotsauce_menu"), "NEW TO HOT SAUCE?");
         log.info(driver.getTitle());
 	
 	}

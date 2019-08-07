@@ -28,11 +28,11 @@ public void homepage()
 {
 	
 	CommonUtilities   obj=new  CommonUtilities ();
-	obj.ClickOnElement(driver, menuprops.getProperty("loc_home_menu"), "HOME");
-    obj.Click(driver, menuprops.getProperty("loc_home_shopforapparel_btn"));
+	obj.assertion(driver, menuprops.getProperty("loc_home_menu"), "HOME");
+    obj.click(driver, menuprops.getProperty("loc_home_shopforapparel_btn"));
 	log.info("Title is: "+driver.getTitle());
 	driver.navigate().back();
-	obj.Click(driver, menuprops.getProperty("loc_home_hotsauceaficionadotxt"));
+	obj.click(driver, menuprops.getProperty("loc_home_hotsauceaficionadotxt"));
    }
 
 

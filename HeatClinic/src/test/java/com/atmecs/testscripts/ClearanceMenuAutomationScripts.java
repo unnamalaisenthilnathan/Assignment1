@@ -27,7 +27,7 @@ WebDriver driver;
 	{
 		CommonUtilities   obj=new  CommonUtilities ();
 		
-		obj.ClickOnElement(driver,menuprops.getProperty("loc_clearance_menu"), "CLEARANCE");
+		obj.assertion(driver,menuprops.getProperty("loc_clearance_menu"), "CLEARANCE");
 
 		
 	}

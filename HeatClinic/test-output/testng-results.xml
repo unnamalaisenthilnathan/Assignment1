@@ -1,105 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45831" started-at="2019-08-06T15:16:29Z" finished-at="2019-08-06T15:17:15Z">
+  <suite name="Default suite" duration-ms="8496" started-at="2019-08-07T04:18:10Z" finished-at="2019-08-07T04:18:19Z">
     <groups>
     </groups>
-    <test name="homepage" duration-ms="9088" started-at="2019-08-06T15:16:29Z" finished-at="2019-08-06T15:16:38Z">
-      <class name="com.atmecs.testscripts.HomePageAutomationScripts">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.HomePageAutomationScripts@62043840]" name="setup" is-config="true" duration-ms="6411" started-at="2019-08-06T20:46:29Z" finished-at="2019-08-06T20:46:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="homepage()[pri:0, instance:com.atmecs.testscripts.HomePageAutomationScripts@62043840]" name="homepage" duration-ms="1716" started-at="2019-08-06T20:46:36Z" finished-at="2019-08-06T20:46:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.HomePageAutomationScripts@62043840]" name="teardown" is-config="true" duration-ms="942" started-at="2019-08-06T20:46:37Z" finished-at="2019-08-06T20:46:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.testscripts.HomePageAutomationScripts -->
-    </test> <!-- homepage -->
-    <test name="hotsaucepage" duration-ms="7303" started-at="2019-08-06T15:16:38Z" finished-at="2019-08-06T15:16:46Z">
-      <class name="com.atmecs.testscripts.HotSaucesMenuAutomationScripts">
-        <test-method status="PASS" signature="setup1()[pri:0, instance:com.atmecs.testscripts.HotSaucesMenuAutomationScripts@6df97b55]" name="setup1" is-config="true" duration-ms="5205" started-at="2019-08-06T20:46:38Z" finished-at="2019-08-06T20:46:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup1 -->
-        <test-method status="PASS" signature="hotsauce()[pri:0, instance:com.atmecs.testscripts.HotSaucesMenuAutomationScripts@6df97b55]" name="hotsauce" duration-ms="1019" started-at="2019-08-06T20:46:44Z" finished-at="2019-08-06T20:46:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hotsauce -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.HotSaucesMenuAutomationScripts@6df97b55]" name="teardown" is-config="true" duration-ms="1077" started-at="2019-08-06T20:46:45Z" finished-at="2019-08-06T20:46:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.testscripts.HotSaucesMenuAutomationScripts -->
-    </test> <!-- hotsaucepage -->
-    <test name="merchandise" duration-ms="8304" started-at="2019-08-06T15:16:46Z" finished-at="2019-08-06T15:16:54Z">
-      <class name="com.atmecs.testscripts.MerchandiseMenuAutomationScripts">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.MerchandiseMenuAutomationScripts@531be3c5]" name="setup" is-config="true" duration-ms="5142" started-at="2019-08-06T20:46:46Z" finished-at="2019-08-06T20:46:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="merchandise()[pri:0, instance:com.atmecs.testscripts.MerchandiseMenuAutomationScripts@531be3c5]" name="merchandise" duration-ms="2182" started-at="2019-08-06T20:46:51Z" finished-at="2019-08-06T20:46:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- merchandise -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.MerchandiseMenuAutomationScripts@531be3c5]" name="teardown" is-config="true" duration-ms="977" started-at="2019-08-06T20:46:53Z" finished-at="2019-08-06T20:46:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.testscripts.MerchandiseMenuAutomationScripts -->
-    </test> <!-- merchandise -->
-    <test name="clearance" duration-ms="6823" started-at="2019-08-06T15:16:54Z" finished-at="2019-08-06T15:17:01Z">
-      <class name="com.atmecs.testscripts.ClearanceMenuAutomationScripts">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.ClearanceMenuAutomationScripts@61dc03ce]" name="setup" is-config="true" duration-ms="5140" started-at="2019-08-06T20:46:54Z" finished-at="2019-08-06T20:46:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clearance()[pri:0, instance:com.atmecs.testscripts.ClearanceMenuAutomationScripts@61dc03ce]" name="clearance" duration-ms="716" started-at="2019-08-06T20:46:59Z" finished-at="2019-08-06T20:47:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearance -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.ClearanceMenuAutomationScripts@61dc03ce]" name="teardown" is-config="true" duration-ms="965" started-at="2019-08-06T20:47:00Z" finished-at="2019-08-06T20:47:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.testscripts.ClearanceMenuAutomationScripts -->
-    </test> <!-- clearance -->
-    <test name="newtohotsauce" duration-ms="7437" started-at="2019-08-06T15:17:01Z" finished-at="2019-08-06T15:17:08Z">
-      <class name="com.atmecs.testscripts.NewToHotSauceMenuAutomationScripts">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.NewToHotSauceMenuAutomationScripts@69d9c55]" name="setup" is-config="true" duration-ms="5944" started-at="2019-08-06T20:47:01Z" finished-at="2019-08-06T20:47:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="newtohotsauce()[pri:0, instance:com.atmecs.testscripts.NewToHotSauceMenuAutomationScripts@69d9c55]" name="newtohotsauce" duration-ms="684" started-at="2019-08-06T20:47:07Z" finished-at="2019-08-06T20:47:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newtohotsauce -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.NewToHotSauceMenuAutomationScripts@69d9c55]" name="teardown" is-config="true" duration-ms="807" started-at="2019-08-06T20:47:08Z" finished-at="2019-08-06T20:47:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.atmecs.testscripts.NewToHotSauceMenuAutomationScripts -->
-    </test> <!-- newtohotsauce -->
-    <test name="faq" duration-ms="6805" started-at="2019-08-06T15:17:08Z" finished-at="2019-08-06T15:17:15Z">
+    <test name="Default test" duration-ms="8496" started-at="2019-08-07T04:18:10Z" finished-at="2019-08-07T04:18:19Z">
       <class name="com.atmecs.testscripts.FAQMenuAutomationScripts">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.FAQMenuAutomationScripts@7946e1f4]" name="setup" is-config="true" duration-ms="5129" started-at="2019-08-06T20:47:08Z" finished-at="2019-08-06T20:47:13Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts.FAQMenuAutomationScripts@62043840]" name="setup" is-config="true" duration-ms="6603" started-at="2019-08-07T09:48:10Z" finished-at="2019-08-07T09:48:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="faq()[pri:0, instance:com.atmecs.testscripts.FAQMenuAutomationScripts@7946e1f4]" name="faq" duration-ms="774" started-at="2019-08-06T20:47:13Z" finished-at="2019-08-06T20:47:14Z">
+        <test-method status="PASS" signature="faq()[pri:0, instance:com.atmecs.testscripts.FAQMenuAutomationScripts@62043840]" name="faq" duration-ms="784" started-at="2019-08-07T09:48:17Z" finished-at="2019-08-07T09:48:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- faq -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.FAQMenuAutomationScripts@7946e1f4]" name="teardown" is-config="true" duration-ms="897" started-at="2019-08-06T20:47:14Z" finished-at="2019-08-06T20:47:15Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts.FAQMenuAutomationScripts@62043840]" name="teardown" is-config="true" duration-ms="1090" started-at="2019-08-07T09:48:17Z" finished-at="2019-08-07T09:48:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.atmecs.testscripts.FAQMenuAutomationScripts -->
-    </test> <!-- faq -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

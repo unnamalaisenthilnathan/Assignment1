@@ -27,16 +27,16 @@ public class MerchandiseMenuAutomationScripts extends TestBase {
 
 		CommonUtilities obj = new CommonUtilities();
 
-	obj.ClickOnElement(driver, menuprops.getProperty("loc_merchandise_menu"), "MERCHANDISE");
+	obj.assertion(driver, menuprops.getProperty("loc_merchandise_menu"), "MERCHANDISE");
 	
 	obj.mouseover(driver, menuprops.getProperty("loc_merchandise_menu"));
-	obj.ClickOnElement(driver, menuprops.getProperty("loc_merchandise_submenu_mens"), "MENS");
+	obj.assertion(driver, menuprops.getProperty("loc_merchandise_submenu_mens"), "MENS");
     
 	driver.navigate().back();
 
 
 	obj.mouseover(driver, menuprops.getProperty("loc_merchandise_menu"));
-	obj.ClickOnElement(driver, menuprops.getProperty("loc_merchandise_submenu_womens"), "WOMENS");
+	obj.assertion(driver, menuprops.getProperty("loc_merchandise_submenu_womens"), "WOMENS");
 	
 	}
 

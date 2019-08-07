@@ -26,7 +26,7 @@ public class FAQMenuAutomationScripts extends TestBase{
 	{
 
 		CommonUtilities   obj=new  CommonUtilities ();
-        obj.ClickOnElement(driver, menuprops.getProperty("loc_faq_menu"), "FAQ");
+        obj.assertion(driver, menuprops.getProperty("loc_faq_menu"), "FAQ");
 	
 		}
 	

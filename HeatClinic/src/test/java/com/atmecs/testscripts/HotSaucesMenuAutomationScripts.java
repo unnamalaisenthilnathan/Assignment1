@@ -28,7 +28,7 @@ public class HotSaucesMenuAutomationScripts extends TestBase {
 	public void hotsauce() 
 	{
 		CommonUtilities   obj=new  CommonUtilities ();
-	    obj.ClickOnElement(driver, menuprops.getProperty("loc_hotsauce_menu"), "HOT SAUCES");
+	    obj.assertion(driver, menuprops.getProperty("loc_hotsauce_menu"), "HOT SAUCES");
 		log.info("Title is :"+driver.getTitle());
 
 		}
