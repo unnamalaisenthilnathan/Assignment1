@@ -1,0 +1,3 @@
+2019-08-13 19:44:48,566  INFO [main] LogReportInformation:21 - invoke
+2019-08-13 19:44:52,960  INFO [main] LogReportInformation:21 - Chrome driver set ChromeDriver: chrome on XP (8a29c05137b44b2212212dc103702f9b)
+2019-08-13 19:44:52,968  INFO [main] LogReportInformation:21 - chrome invoked...
