@@ -2,23 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34628" started-at="2019-08-13T14:14:48Z" finished-at="2019-08-13T14:15:23Z">
+  <suite name="Default suite" duration-ms="91833" started-at="2019-08-24T13:32:41Z" finished-at="2019-08-24T13:34:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34628" started-at="2019-08-13T14:14:48Z" finished-at="2019-08-13T14:15:23Z">
+    <test name="Default test" duration-ms="91833" started-at="2019-08-24T13:32:41Z" finished-at="2019-08-24T13:34:13Z">
       <class name="com.atmecs.testscripts2.DemoqaOrderingPageBySearch">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@62043840]" name="setup" is-config="true" duration-ms="15651" started-at="2019-08-13T19:44:48Z" finished-at="2019-08-13T19:45:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@1d057a39]" name="setup" is-config="true" duration-ms="68996" started-at="2019-08-24T19:02:41Z" finished-at="2019-08-24T19:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="bysearch()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@62043840]" name="bysearch" duration-ms="17823" started-at="2019-08-13T19:45:04Z" finished-at="2019-08-13T19:45:22Z">
+        <test-method status="PASS" signature="bysearch()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@1d057a39]" name="bysearch" duration-ms="22826" started-at="2019-08-24T19:03:50Z" finished-at="2019-08-24T19:04:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bysearch -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@62043840]" name="teardown" is-config="true" duration-ms="1144" started-at="2019-08-13T19:45:22Z" finished-at="2019-08-13T19:45:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- com.atmecs.testscripts2.DemoqaOrderingPageBySearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

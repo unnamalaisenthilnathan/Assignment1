@@ -13,12 +13,14 @@ import com.atmecs.constants.ProjectPathConstants;
 import com.atmecs.logreports.LogReportInformation;
 
 import com.atmecs.util.PropertiesUtil;
+import com.gargoylesoftware.htmlunit.javascript.host.Set;
+import com.relevantcodes.extentreports.model.Log;
 
 
 public class TestBaseClass {
 	LogReportInformation log=new LogReportInformation();
 	 WebDriver driver;
-
+     
    public static Properties configProps = PropertiesUtil.loadProperty(ProjectPathConstants.config);
 	public static Properties testdataprops=PropertiesUtil.loadProperty(ProjectPathConstants.testdatas);
 	
@@ -73,7 +75,9 @@ public WebDriver invokeBrowser()
 	return new InternetExplorerDriver();
 	}
 	public WebDriver windowOperation() {
-		  driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		//String winHandleBefore = driver.getWindowHandle();
+		//driver.switchTo().window(winHandleBefore);
+		  driver.manage().timeouts().pageLoadTimeout(4, TimeUnit.MINUTES);
 		  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		  driver.manage().window().maximize();
 		  driver.manage().deleteAllCookies();
@@ -82,5 +86,10 @@ public WebDriver invokeBrowser()
 	
 
 }
+	
+	}
+	
+	
+	
 
-}
+

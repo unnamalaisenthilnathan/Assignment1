@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.atmecs.extendreportlistener.ExtentReportListener" />
+	</listeners>
+	
+<listeners>
+		<listener class-name="com.atmecs.listeners.TestJiraListener" />
+	</listeners>
+
+	<test name="Demoqa App Test Cases">
+		<classes>
+			<class name="com.atmecs.testscripts2.DemoqaOrderingPageBySearch"></class>
+			
+
+		</classes>
+	</test>
+</suite>
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" >
+
+
 
   
 <test name="orderingpage">
  <classes>
-<class name="com.atmecs.testscripts1.DemoqaOrderingPage "></class>
+<class name="com.atmecs.testscripts1.DemoqaOrderingPage.java "></class>
+<class name="com.atmecs.testscripts2.DemoqaOrderingPageBySearch.java"></class>
 </classes>
 </test>
-
-
-<test name="orderingpagebysearch">
- <classes>
-<class name="com.atmecs.testscripts2.DemoqaOrderingPageBySearch"></class>
-</classes>
-</test>
-
-</suite>
+</suite>-->
