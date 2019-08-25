@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.google.common.base.Function;
@@ -20,6 +21,15 @@ public class CommonUtilities {
 	System.out.println("Actual is: "+actual+" "+"Expected: "+expected+" "+"Message is: "+message);
 	
 	}
+	
+	public void productvalidationbytext( WebDriver driver, final String xpath,final String expected){                                           
+	WebElement firstProductValidation=driver.findElement(By.xpath(xpath));
+	String firstProductName=firstProductValidation.getText();
+    verifyassert(firstProductName, "PINK DROP SHOULDER OVERSIZED T SHIRT - PINK", "OverSized t-shirt is present in the cart ");
+	}
+	
+
+	
 	public   void assertion(WebDriver driver, final String xpath,final String expected) 
 	{
 		FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).ignoring(ElementClickInterceptedException.class).pollingEvery(1, TimeUnit.SECONDS).withTimeout(30, TimeUnit.SECONDS);
@@ -50,6 +60,12 @@ public class CommonUtilities {
 		}
 		});
 		}
+	public void selectDropdown(WebElement Xpath,int index) {
+
+		Select option=new Select( Xpath);
+		option.selectByIndex(index);
+		}
+
 	
 	public   void mouseover(WebDriver driver, final String xpath) 
 	{

@@ -22,7 +22,8 @@ public class TestBaseClass {
 	 WebDriver driver;
      
    public static Properties configProps = PropertiesUtil.loadProperty(ProjectPathConstants.config);
-	public static Properties testdataprops=PropertiesUtil.loadProperty(ProjectPathConstants.testdatas);
+	public static Properties locatorprops=PropertiesUtil.loadProperty(ProjectPathConstants.locators);
+	
 	
 	public enum BrowserType {
 	FIREFOX, CHROME, IE
