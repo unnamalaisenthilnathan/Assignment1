@@ -1,14 +1,14 @@
 package com.atmecs.testscripts2;
 
-import javax.annotation.RegEx;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
+
+
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -84,15 +84,15 @@ public class DemoqaOrderingPageBySearch extends TestBaseClass
     
         js.executeScript("window.scrollBy(0,500)");
 	    
-	    WebElement firstProductValidation=driver.findElement(By.xpath("(//a[@href='http://shop.demoqa.com/product/pink-drop-shoulder-oversized-t-shirt/?attribute_pa_color=pink&attribute_pa_size=37'])[2]"));
+	    WebElement firstProductValidation=driver.findElement(By.xpath(locatorprops.getProperty("loc_pinktshirt_firstproductvalidationpage")));
 		String firstProductName=firstProductValidation.getText();
-	    obj.verifyassert(firstProductName, "PINK DROP SHOULDER OVERSIZED T SHIRT - PINK", "OverSized t-shirt is present in the cart ");
+	    obj.verifyassert(firstProductName, locatorprops.getProperty("loc_pinktshirt_homepage_firstProductName"), "OverSized t-shirt is present in the cart ");
 	    
-	    WebElement secondProductValidation=driver.findElement(By.xpath("//a[text()='pink fruit graphic fitted t shirt - Pink']"));
-		String secondProductName=secondProductValidation.getAttribute("href");
-        obj.verifyassert(secondProductName, "http://shop.demoqa.com/product/pink-fruit-graphic-fitted-t-shirt/?attribute_pa_color=pink&attribute_pa_size=36", "fitted t-shirt is present in the cart ");
-	    
-       WebElement firstProductPrice=driver.findElement(By.xpath(locatorprops.getProperty("loc_pinkdropoversizedtshirt_priceforthefirstproduct")));
+	    WebElement secondProductValidation=driver.findElement(By.xpath(locatorprops.getProperty("loc_graphicfittedtshirt_secondproductvalidationpage")));
+		String secondProductName=secondProductValidation.getAttribute(locatorprops.getProperty("loc_graphicfittedtshirt_secondProductValidation_attribute"));
+        obj.verifyassert(secondProductName,(locatorprops.getProperty("loc_graphicfittedtshirt_homepage_secondProductName")), "fitted t-shirt is present in the cart ");
+
+        WebElement firstProductPrice=driver.findElement(By.xpath(locatorprops.getProperty("loc_pinkdropoversizedtshirt_priceforthefirstproduct")));
     
         String textFirstPrice=firstProductPrice.getText();
 	   
@@ -100,7 +100,7 @@ public class DemoqaOrderingPageBySearch extends TestBaseClass
 		double i = Double.parseDouble(valu1);
 		System.out.println("1First_Product Price is: " + i);
 		
-		WebElement SecondProductPrice=driver.findElement(By.xpath(locatorprops.getProperty("loc_tokyotalkies_priceforthesecondproduct")));
+		WebElement SecondProductPrice=driver.findElement(By.xpath(locatorprops.getProperty("loc_pinkfruitgraphicfittedtshirtpink_priceforthesecondproduct")));
 		String textSecondPrice=SecondProductPrice.getText();
 	   
 

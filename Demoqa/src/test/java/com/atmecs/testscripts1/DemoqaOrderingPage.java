@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
+
 
 
 import org.testng.annotations.AfterTest;
@@ -56,14 +56,12 @@ js.executeScript("window.scrollBy(0,1000)");
 obj.click(driver, locatorprops.getProperty("loc_tokyotalkies_homepage"));
 js.executeScript("window.scrollBy(0,500)");
 obj.click(driver, locatorprops.getProperty("loc_tokyotalkies_color"));
+obj.click(driver, locatorprops.getProperty("loc_tokyotalkies_color_chooseanoption"));
 
-Select dropdown = new Select(driver.findElement(By.id("color")));  
-dropdown.selectByIndex(2); 
 
 obj.click(driver, locatorprops.getProperty("loc_tokyotalkies_size"));
+obj.click(driver, locatorprops.getProperty("loc_tokyotalkies_size_chooseanoption"));
 
- dropdown = new Select(driver.findElement(By.id("size")));  
-dropdown.selectByIndex(3);  
 
 obj.click(driver, locatorprops.getProperty("loc_tokyotalkies_addtocart"));
 
@@ -73,11 +71,11 @@ js.executeScript("window.scrollBy(0,500)");
 
 WebElement firstProductValidation=driver.findElement(By.xpath(locatorprops.getProperty("loc_pinktshirt_firstproductvalidationpage")));
 String firstProductName=firstProductValidation.getText();
-obj.verifyassert(firstProductName, "PINK DROP SHOULDER OVERSIZED T SHIRT - PINK", "OverSized t-shirt is present in the cart ");
+obj.verifyassert(firstProductName, locatorprops.getProperty("loc_pinktshirt_homepage_firstProductName"), "OverSized t-shirt is present in the cart ");
 
 WebElement secondProductValidation=driver.findElement(By.xpath(locatorprops.getProperty("loc_tokyotalkies_secondproductvalidationpage")));
 String secondProductName=secondProductValidation.getText();
-obj.verifyassert(secondProductName, "TOKYO TALKIES", "Maxi dress is present in the cart ");
+obj.verifyassert(secondProductName, locatorprops.getProperty("loc_tokyotalkies_homepage_secondProductName"), "Maxi dress is present in the cart ");
 
 WebElement firstProductPrice=driver.findElement(By.xpath(locatorprops.getProperty("loc_pinkdropoversizedtshirt_priceforthefirstproduct")));
 
@@ -110,7 +108,7 @@ System.out.println("GrantTotalPriceis: " + k );
 	@AfterTest
 public void teardown()
 	{
-	driver.quit();
+driver.quit();
 }
 
 	}

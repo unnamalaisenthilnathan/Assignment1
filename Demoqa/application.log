@@ -1,3 +1,6 @@
-2019-08-25 20:11:01,666  INFO [main] LogReportInformation:21 - invoke
-2019-08-25 20:11:05,934  INFO [main] LogReportInformation:21 - Chrome driver set ChromeDriver: chrome on XP (d6f3e0488b60beb18d494d7ef1e11bfb)
-2019-08-25 20:11:05,940  INFO [main] LogReportInformation:21 - chrome invoked...
+2019-08-26 10:34:44,400  INFO [main] LogReportInformation:21 - invoke
+2019-08-26 10:34:48,579  INFO [main] LogReportInformation:21 - Chrome driver set ChromeDriver: chrome on XP (837aa18aa892e844b0934086b6b49f43)
+2019-08-26 10:34:48,580  INFO [main] LogReportInformation:21 - chrome invoked...
+2019-08-26 10:35:52,315  INFO [main] LogReportInformation:21 - invoke
+2019-08-26 10:35:55,040  INFO [main] LogReportInformation:21 - Chrome driver set ChromeDriver: chrome on XP (e99a109730b490c442e7fbc5aae515e4)
+2019-08-26 10:35:55,040  INFO [main] LogReportInformation:21 - chrome invoked...

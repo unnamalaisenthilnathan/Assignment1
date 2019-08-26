@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89466" started-at="2019-08-25T14:41:01Z" finished-at="2019-08-25T14:42:31Z">
+  <suite name="Suite" duration-ms="228535" started-at="2019-08-26T05:04:44Z" finished-at="2019-08-26T05:08:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89466" started-at="2019-08-25T14:41:01Z" finished-at="2019-08-25T14:42:31Z">
+    <test name="Test" duration-ms="228535" started-at="2019-08-26T05:04:44Z" finished-at="2019-08-26T05:08:32Z">
       <class name="com.atmecs.testscripts1.DemoqaOrderingPage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts1.DemoqaOrderingPage@26be92ad]" name="setup" is-config="true" duration-ms="68737" started-at="2019-08-25T20:11:01Z" finished-at="2019-08-25T20:12:10Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts1.DemoqaOrderingPage@224edc67]" name="setup" is-config="true" duration-ms="67921" started-at="2019-08-26T10:34:44Z" finished-at="2019-08-26T10:35:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="orders()[pri:0, instance:com.atmecs.testscripts1.DemoqaOrderingPage@26be92ad]" name="orders" duration-ms="19715" started-at="2019-08-25T20:12:10Z" finished-at="2019-08-25T20:12:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@4c70fda8]" name="setup" is-config="true" duration-ms="67390" started-at="2019-08-26T10:35:52Z" finished-at="2019-08-26T10:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="orders()[pri:0, instance:com.atmecs.testscripts1.DemoqaOrderingPage@224edc67]" name="orders" duration-ms="75283" started-at="2019-08-26T10:37:16Z" finished-at="2019-08-26T10:38:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orders -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts1.DemoqaOrderingPage@26be92ad]" name="teardown" is-config="true" duration-ms="1003" started-at="2019-08-25T20:12:30Z" finished-at="2019-08-25T20:12:31Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts1.DemoqaOrderingPage@224edc67]" name="teardown" is-config="true" duration-ms="813" started-at="2019-08-26T10:38:31Z" finished-at="2019-08-26T10:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@4c70fda8]" name="teardown" is-config="true" duration-ms="792" started-at="2019-08-26T10:38:32Z" finished-at="2019-08-26T10:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.atmecs.testscripts1.DemoqaOrderingPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.atmecs.testscripts2.DemoqaOrderingPageBySearch">
+        <test-method status="PASS" signature="bysearch()[pri:0, instance:com.atmecs.testscripts2.DemoqaOrderingPageBySearch@4c70fda8]" name="bysearch" duration-ms="16322" started-at="2019-08-26T10:36:59Z" finished-at="2019-08-26T10:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bysearch -->
+      </class> <!-- com.atmecs.testscripts2.DemoqaOrderingPageBySearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
