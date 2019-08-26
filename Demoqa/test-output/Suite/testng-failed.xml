@@ -3,8 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test">
     <classes>
-      <class name="com.atmecs.testscripts2.DemoqaOrderingPageBySearch"/>
       <class name="com.atmecs.testscripts1.DemoqaOrderingPage"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.atmecs.testscripts1.DemoqaOrderingPage">
+        <methods>
+          <include name="orders"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.atmecs.testscripts1.DemoqaOrderingPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
