@@ -22,11 +22,7 @@ public class CommonUtilities {
 	
 	}
 	
-	public void productvalidationbytext( WebDriver driver, final String xpath,final String expected){                                           
-	WebElement firstProductValidation=driver.findElement(By.xpath(xpath));
-	String firstProductName=firstProductValidation.getText();
-    verifyassert(firstProductName, "PINK DROP SHOULDER OVERSIZED T SHIRT - PINK", "OverSized t-shirt is present in the cart ");
-	}
+	
 	
 
 	
